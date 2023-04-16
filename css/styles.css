@@ -267,7 +267,7 @@ body {
 }
 
 .about-item-icon {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 264px;
@@ -379,7 +379,7 @@ body {
   border-radius: 50%;
 }
 .socials-link:hover,
-.social-link:active {
+.social-link:focus {
   background-color: var(--ocean);
 }
 .socials-icon {
@@ -470,6 +470,7 @@ body {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
 
@@ -522,7 +523,7 @@ body {
   border-radius: 50%;
 }
 .footer-social-link:hover,
-.footer-social-link:active {
+.footer-social-link:focus {
   background-color: var(--green);
 }
 .footer-social-icon {
