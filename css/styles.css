@@ -193,9 +193,10 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/bg-people-office.png);
+    url(../images/hero/bg-people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin: 0 auto;
 }
 
